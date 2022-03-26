@@ -2,8 +2,7 @@ name: Unit Test, Build, then Publish
 on: push
 jobs:
   test-build-n-publish:
-    needs: unit-test
-    name: Build and Publish
+    name: Unit Test, Build, and Publish
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master

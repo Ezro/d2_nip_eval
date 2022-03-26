@@ -17,9 +17,5 @@ setup(
     ],
     packages=find_packages(exclude=['tests*']),
     package_data={'': ['*.png']},
-    include_package_data=True,
-    install_requires=[
-    ],
-    dependency_links = [
-    ]
+    include_package_data=True
 )
