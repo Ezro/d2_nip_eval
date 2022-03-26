@@ -1,10 +1,10 @@
-from d2_nip_to_eval.NTIPAliasQuality import NTIPAliasQuality
-from d2_nip_to_eval.NTIPAliasClass import NTIPAliasClass
-from d2_nip_to_eval.NTIPAliasClassID import NTIPAliasClassID
-from d2_nip_to_eval.NTIPAliasFlag import NTIPAliasFlag
-from d2_nip_to_eval.NTIPAliasStat import NTIPAliasStat
-from d2_nip_to_eval.NTIPAliasType import NTIPAliasType
-from d2_nip_to_eval.tokens import Token, TokenType
+from d2_nip_eval.NTIPAliasQuality import NTIPAliasQuality
+from d2_nip_eval.NTIPAliasClass import NTIPAliasClass
+from d2_nip_eval.NTIPAliasClassID import NTIPAliasClassID
+from d2_nip_eval.NTIPAliasFlag import NTIPAliasFlag
+from d2_nip_eval.NTIPAliasStat import NTIPAliasStat
+from d2_nip_eval.NTIPAliasType import NTIPAliasType
+from d2_nip_eval.tokens import Token, TokenType
 
 
 class Lexer:

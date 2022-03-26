@@ -1,7 +1,7 @@
 import json
 import os
 import pytest
-from d2_nip_to_eval import lexer
+from d2_nip_eval import lexer
 from mock_hovered_items import MOCK_HOVERED_ITEMS
 
 
