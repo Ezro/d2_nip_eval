@@ -1,5 +1,5 @@
-# D2 nip-to-eval
-D2 nip to eval is a package aimed to help in providing an API for converting nip expressions into python eval statements
+# D2 nip-eval
+D2 nip-eval is a package aimed to help in providing an API for converting nip expressions into python eval statements
 
 - transpile_nip_expressions(expressions: list[str]) -> list[str]
 - transpile_nip_expression(expression: str) -> str
