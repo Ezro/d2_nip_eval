@@ -255,7 +255,7 @@ def _transpile(tokens):
         elif token.type == TokenType.FLAG:
             if tokens[i + 2].type == TokenType.NTIPAliasFlag:
                 condition_type = tokens[i + 1]
-                print(condition_type)
+                #print(condition_type)
                 if condition_type.type == TokenType.EQ:
                     expression += f"(item_data['NTIPAliasFlag']['{NTIPAliasFlag[tokens[i + 2].value]}'])"
                 elif condition_type.type == TokenType.NE:
